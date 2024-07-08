@@ -1,0 +1,110 @@
+.title p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.Chiken{
+    border: 3px solid black;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: gray;
+}
+.beef{
+    border: 3px solid black;
+    margin-top: 30px;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: gray;
+     }
+.Sushi{
+        border: 3px solid black;
+        padding-left: 10px;
+       
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background-color: gray;
+
+     }
+#TOP1{
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 300px;
+  border: 2px solid;
+  background-color: rosybrown;
+  width: 120;
+}
+#TOP2{
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 300;
+    width: 120px;
+    border: 2px solid;
+    background-color: rgba(242, 105, 178, 0.422);}
+#TOP3{
+    text-align: center;
+    border: 3px solid;
+    margin-right: 0%;
+    margin-top: 0;
+    margin-left: 300;
+    width: 120;
+    background-color: rgb(239, 239, 135);
+}
+@media screen and (max-width: 767px){
+   
+    #TOP1 ,#TOP2 #TOP3{
+        font-size: large;
+    }
+    
+}
+@media screen and  (min-width: 768px) and (max-width: 991px){
+    
+    .tablets{
+        display: flex;
+        justify-content: space-between;
+       
+        width: 1000;
+    }
+    .Chiken{
+        width: 50%;
+        height: 20%;
+        margin-top:30 ;
+    }
+    .beef{
+        width: 50%;
+        height: 20%;
+        margin-left: 1px;
+    }
+    .Sushi{
+        width:910px ;
+        
+        
+    }
+    #TOP3{
+        margin-left: 800;
+        
+    }
+}
+@media screen and (min-width: 992px) {
+    
+    .destop{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       
+    }
+    .tablets{
+        display: flex;
+    }
+    .chiken{
+        margin-top: 30;
+        height: 150;
+       
+    }
+    .beef{
+        height: 150;
+    }
+    
+}
